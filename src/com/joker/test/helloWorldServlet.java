@@ -1,8 +1,10 @@
 package com.joker.test;
 
-import java.servlet.http.HttpServlet;
-import java.servlet.http.HttpServletRequest;
-import java.servlet.http.HttpServletResponse;
+import java.io.IOException;
+
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
 
 public class helloWorldServlet extends HttpServlet{
 	public void doGet(HttpServletRequest request,HttpServletResponse response){
@@ -10,6 +12,6 @@ public class helloWorldServlet extends HttpServlet{
 	}
 	
 	public void doPost(HttpServletRequest request,HttpServletResponse response){
-		doGet();
+		this.doGet(request,response);
 	}
 }
