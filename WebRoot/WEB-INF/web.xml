@@ -3,4 +3,12 @@
 	<welcome-file-list>
 	  <welcome-file>index.html</welcome-file>
 	</welcome-file-list>
+	<servlet>
+	  <servlet-name>helloWorld</servlet-name>
+	  <servlet-class>com.joker.test.HelloWorldServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	  <servlet-name>helloWorld</servlet-name>
+	  <url-pattern>/helloWorld</url-pattern>
+	</servlet-mapping>
 </web-app>
