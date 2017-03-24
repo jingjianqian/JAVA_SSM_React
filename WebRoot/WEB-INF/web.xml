@@ -5,7 +5,7 @@
 	</welcome-file-list>
 	<servlet>
 	  <servlet-name>helloWorld</servlet-name>
-	  <servlet-class>com.joker.test.HelloWorldServlet</servlet-class>
+	  <servlet-class>com.joker.test.helloWorldServlet</servlet-class>
 	</servlet>
 	<servlet-mapping>
 	  <servlet-name>helloWorld</servlet-name>
