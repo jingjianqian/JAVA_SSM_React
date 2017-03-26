@@ -11,4 +11,7 @@
 	  <servlet-name>helloWorld</servlet-name>
 	  <url-pattern>/helloWorld</url-pattern>
 	</servlet-mapping>
+	<listener>
+	  <listener-class>com.joker.test.ListenerInit</listener-class>
+	</listener>
 </web-app>
