@@ -12,6 +12,13 @@
 	  <url-pattern>/helloWorld</url-pattern>
 	</servlet-mapping>
 	<listener>
-	  <listener-class>com.joker.test.ListenerInit</listener-class>
+	 <listener-class>com.joker.test.MyServletContext</listener-class>
 	</listener>
+	<listener>
+	  <listener-class>com.joker.test.MyHttpSessionListener</listener-class>
+	</listener>
+	<context-param>
+		<param-name>initParam1</param-name>
+		<param-value>initParam1Value</param-value>
+	</context-param>
 </web-app>
